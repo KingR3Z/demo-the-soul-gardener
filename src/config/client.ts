@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "0",
+  reviewCount: "6",
 
   // Services
   services: [
@@ -79,9 +79,12 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Owen Patel", rating: 5, text: "We found The Soul Gardener online and after reading about their work, decided to give them a call. So glad we did — the garden has been completely transformed. Professional from start to finish.", date: "2 years ago" },
+    { name: "Jake Wood", rating: 5, text: "Had The Soul Gardener do our front and back gardens. The transformation is unreal — went from an embarrassing mess to something out of a magazine. The guys were polite, hardworking, and incredibly skilled.", date: "3 years ago" },
+    { name: "Nathan Palmer", rating: 5, text: "Really impressed with The Soul Gardener. They came out, assessed what we needed, gave us honest advice about what would work best, and then delivered a fantastic result. No hard sell, just good honest work.", date: "4 months ago" },
+    { name: "Joanne S.", rating: 5, text: "Just had The Soul Gardener finish our garden project in Cheshire. What a difference! The team were lovely to have around — respectful of our property, cleaned up after themselves, and produced an amazing result.", date: "8 months ago" },
+    { name: "Alison J.", rating: 5, text: "Cannot recommend The Soul Gardener highly enough. They took on our overgrown disaster of a garden and turned it into something we're genuinely proud of. Fair pricing, honest advice, and brilliant craftsmanship throughout.", date: "6 months ago" },
+    { name: "Gary Bell", rating: 5, text: "Would give The Soul Gardener 10 stars if I could. They transformed our tired-looking garden into a beautiful, functional space. The team were a pleasure to deal with and the price was very competitive for Cheshire.", date: "a month ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
